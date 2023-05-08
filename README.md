@@ -20,3 +20,11 @@ help - Display a help message
 exit - Quit the program
 Non-interactive mode
 In non-interactive mode, the program executes a single command specified as a command-line argument.
+
+- Example:
+  ```bash
+  terminal.exe ls
+  ```
+This command will list the files in the current directory and exit.
+# Building
+The program can be built using Visual Studio or any other C++ compiler.
